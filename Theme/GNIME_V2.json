@@ -1,0 +1,61 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+    "theme": "GNIME_MD",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",
+    "STRINGS": {
+        "updater": {
+            "UPDATE": "*_Your bot is Already up-to-date_*",
+            "NEW_UPDATE": "*it's time to update the bot!*\n*Changes:*\n",
+            "UPDATED_LOCAL": "*Updated Successfully !*"
+        },
+        "global": {
+            "botName": " GNIME-V2",
+            "body": "whatsapp Bot",
+            "greet2" : "Thanks To 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+            "pic1": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic2": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic3": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic4": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic5": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic6": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic7": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic8": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic9": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "pic10": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg",
+            "greet" : "Believe it",
+            "dotbody" : "I decided being to be King.",
+            "emojii" : "👑",
+            "promote": "Admin Role Given to 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+            "pmallow": "*Hi,This is 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦\n You have been blocked for spamming.",
+            "pmwarn": "Hi* \nPlease don't spam else I'll block you for spamming.\nJoin Support Group:\n \n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦*",
+            "permited": "Hi\n\nNow You are permitted by my owner to pm now.\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦*", 
+            "revoked" : "*Hi*\nYour pm permit permission has been revoked now.\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦*",
+            "demote": "Admin Role Taken back",
+            "antlink": "Link Detected.\n*_Good Bye IDiot_*",
+            "session": "*This is your session.json,keep it safe*\n*_Now Upload This json file in Your Forked Repo_*\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦*",
+            "mention": " Please mention My Owner",
+            "title": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+            "theme": "SIGMA_MD",
+            "footer": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+            "by": "Made by: 🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm eating MF",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ!",
+            "botAdmin": "ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ʀᴏʟᴇ.!",
+            "owner": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "group": "ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ɢʀᴏᴜᴘ!",
+            "private": "ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "bot": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ ᴍʏ ᴏᴡɴᴇʀ!",
+            "wait": "ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ"
+        },
+        "error": {
+            "text": "*_You Idiot tried To Edit ME_*\nNow go get this Error fixed*"
+        }
+    }
+  }
+  

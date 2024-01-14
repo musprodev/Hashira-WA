@@ -1,0 +1,144 @@
+{
+  "name": "SIGMA-MD WHATSAPP BOT BY MAHER ZUBAIR",
+  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium. For Any Help See My YT:https://www.youtube.com/@InnoxentTech",
+  "logo": "https://telegra.ph/file/e5768d0b5a4441b4e576b.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "SIGMA_MD", "SIGMA_BOT", "SIGMA","SIGMA_MD-BOT","Multi-Theme Bot","multi device"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "OWNER_NAME": {
+  "description": "Name of Bot Owner",
+      "value": "Maher Zubair"
+  },
+   "THUMB_IMAGE": {
+    "description": "THUMBNAIL Image for bot.",
+     "value": "https://leadier-umbrellas.000webhostapp.com/Gnimev2.jpeg"
+    },
+ "HEROKU_API_KEY": {
+    "description": "Put Your Heroku Api Key Here",
+     "value": "",
+	 "required" :true 
+    },
+"HEROKU_APP_NAME": {
+    "description": "Put Your Heroku App Name Here. Same as Above",
+     "value": ""
+    },
+   "ANTILINK_VALUES": {
+    "description": "Put words for antilink",
+     "value": "chat.whatsapp.com",
+     "required" :false
+    },
+  "LEVEL_UP_MESSAGE": {
+    "description": "Fill the value true if you want bot send Level up message in chat.",
+     "required" :false,
+     "value": "true"
+    },
+"AUTO_READ_STATUS": {
+    "description": "Fill the value true if you  want bot view your Statuses. and send them in your inbox",
+     "required" :false,
+     "value": "false"
+    },
+"MSGS_IN_LOG": {
+    "description": "Fill the value true if you want to see Messages in Console.",
+     "required" :false,
+     "value": "false"
+    },
+      "READ_MESSAGE": {
+    "description": "Fill the value false if you not want bot to read all messages.",
+     "required" :false,
+     "value": "true"
+    },
+   "DISABLE_PM": {
+    "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
+      "value": "false",
+     "required" :false
+    },
+"ALWAYS_ONLINE": {
+    "description": "Take it 'true' if you  wanna show Always Onlline on whatsapp",
+      "value": "false",
+     "required" :false
+    },
+      "PREFIX": {
+  "description": "Enter your desired prefix for bot.",
+      "value": "."
+  },
+  "OWNER_NUMBER": {
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+       "value": "2348117939262"
+  },
+   "SESSION_ID": {
+    "description": "Please put your SESSION_ID here,if you don't have visit to get Session id\nhttps://replit.com/@Mehar-Zubair/SIGMA-MD?v=1",
+       "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0dqVmtVdmwwWmY5cXpxSmd1SVNaV1p4T3V3VFcvaE82OGlCNHFtNUZtMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSDhiUzRCNldvR1duZjVTdk9BeVBvNkk3V1oxanhCR21STmlRak40TnhpND0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZTDFjNFBxYkxyTlc2R3JsUEtLN2lsOVlhWVZ5L1ZyS1RFNTk5UWFnMm1nPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtS29EcU1FOEd4NU1EUVlORlF0NFJCd0NxNFl1M2VQU05QaUhyd1hIMVUwPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBNTDdWUXF3S1NGbTlzRTR0MzZyQTRlS0E4RG9pTFhSNzQyRU40Q0h5a2c9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlViZytQNFpGQktTbkc2NjUyZFNmZ2xEbnE2Yi9SK3VPTXNYQVhydlFNazQ9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvSTg5MjNNclo1K2NGaTEzeWpwY1hqdTQ2VFk4VUFDSndWZjdvTk9hY0swN2NCYXQwY0piaW9sOGZnTGlqTTJyTkI3UmxuUmNmeUdNU0Jwb2tKdm1BQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjE1NiwiYWR2U2VjcmV0S2V5IjoiR3dTWGVoekNkQm5nZlg5TGdCUWxaQ0lROGNBalUrY3ZGUERXZDZKNjc0bz0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOlt7ImtleSI6eyJyZW1vdGVKaWQiOiIxNTM5MzUyNDgxMkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIzQUQxREJENkVDMDkwN0I0NThCNyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzA1MjMyMzkyfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIxNTM5MzUyNDgxMkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIzQUUyOENCMkQ3RTBGNzFCNDIxMiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzA1MjMyMzk0fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJpWkVhWG1yaFNhU2ZPRnZtcG5MTGFBIiwicGhvbmVJZCI6IjRhY2UwYWI2LWNmYmMtNDM2Yi1hN2FmLTIwZTM3OTRlNzc3NiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYYWxVN2ovTWNJSi9uS2pLYmdxQmtaemhqS1U9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImJPeUlLK1dFbXZ0VUZsd3Ayd3A1bGV5SnNGUT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05hcTNKMENFSWFRajYwR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik5LZFhjWE4zS24yQ0s5a0pkbENzaGhUZDZiQ2NoWTZ6S1VJNDRkaU55MkU9IiwiYWNjb3VudFNpZ25hdHVyZSI6InBoYXZOOHJLd2NzWEJtNDI2WW5YeFRxalQzNHZZWitZUWNKcGdhc3NGaGN1NUR6SlRJVFNlbk1DbmFEY0hJVnpLSDBXa0FhRWtKaENhNUIwQThVNWlBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiIyMEIyZmlFclJvWEJoZ2F4disxMjFqMVJWamVlYzQyTUVGRUhzTG94ejVXWEtjNVFyVTM2UEJlOXpPdEFSVmN4VURzTklNdi9ZZFk0NnlHN0M0SjBCQT09In0sIm1lIjp7ImlkIjoiMTUzOTM1MjQ4MTI6MTZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiypzhtIDqnLHKnMmqyoDhtIAifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMTUzOTM1MjQ4MTI6MTZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVFNuVjNGemR5cDlnaXZaQ1haUXJJWVUzZW13bklXT3N5bENPT0hZamN0aCJ9fV0sInBsYXRmb3JtIjoiaXBob25lIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzA1MjMyMzkxLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU9PNCJ9"
+  },
+    "OPENAI_API_KEY": {
+    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
+       "value": "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",
+       "required" :false
+  },
+  "WELCOME_MESSAGE": {
+    "description": "Enter the message here which you want to see when a new user joins a Group.",
+       "value": " @pp *_HI Dear @user_*\n*_Welcome In ♥️ @gname_*\n*_Read The Description CareFully_*\n\n\n*_Support Me By Subscribing_*\n*_https://www.youtube.com/@InnoxentTech_*",
+       "required" :false
+  },
+  "MONGODB_URI": {
+    "description": "Add Your Own, If you have key. Its a secret String for Mongodb Connection",
+     "value": "mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+  },
+    "WORKTYPE": {
+  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+         "value": "private"
+  },
+      "AUTO_REACTION": {
+    "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
+     "value": "false",
+     "required": false 
+  },
+  "PACK_NAME": {
+    "description": "Put Sticker Pack_Name.",
+     "value": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+     "required": false 
+  },
+"PACK_AUTHER": {
+    "description": "Put Sticker Author_Name.",
+     "value": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+     "required": false 
+  },
+"TIME_ZONE": {
+  "description": "Add Your TimeZone. make sure the timzone is correct/Otherwise you will have errors",
+   "value": "Africa/Lagos"
+    
+},
+"MZTIT": {
+  "description": "Add Your Title",
+   "value": "*🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦*"
+    
+},
+"GNAME": {
+  "description": "Add Your Group Name Here.You Can See in Most Commands",
+   "value": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦",
+    "required": false
+},
+"WAURL": {
+  "description": "Add Your Group Link.You Can See IT IN Most Commands",
+   "value": "",
+    "required": false
+},
+"BOT_NAME": {
+  "description": "Add Your Own Bot Name",
+   "value": "🇭​​🇦​​🇸​​🇭​​🇮​​🇷​​🇦"
+    
+},
+"REMOVE_BG_KEY": {
+  "description": "Add The RemoveBg Api Key.Git New APi Key From remove.bg",
+   "value": "34wcCGPoe3yaGtpiBZgx4SN7",
+    "required": false
+}
+},
+
+"addons": [
+		{
+			"plan": "heroku-postgresql"
+		}
+	]
+ 
+}
